@@ -39,7 +39,7 @@ Finally, your edit file `composer.json` in root folder of project
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Backend\\REPLACE_FOR_YOUR\\": "src/"
+            "nguyenanhung\\Backend\\Your_Project\\": "src/"
         },
         "files": [
             "helpers/helpers.php"
