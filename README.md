@@ -1,6 +1,6 @@
 [![Latest Stable Version](http://poser.pugx.org/nguyenanhung/template-backend-package/v)](https://packagist.org/packages/template-backend-package) [![Total Downloads](http://poser.pugx.org/nguyenanhung/template-backend-package/downloads)](https://packagist.org/packages/nguyenanhung/template-backend-package) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/template-backend-package/v/unstable)](https://packagist.org/packages/nguyenanhung/template-backend-package) [![License](http://poser.pugx.org/nguyenanhung/template-backend-package/license)](https://packagist.org/packages/nguyenanhung/template-backend-package) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/template-backend-package/require/php)](https://packagist.org/packages/nguyenanhung/template-backend-package)
 
-# Template start Backend API PAckage
+# Template start Backend API Package
 
 Template for repository Backend API - Basic, Simple and Lightweight
 
