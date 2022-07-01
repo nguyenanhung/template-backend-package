@@ -6,7 +6,7 @@ use nguyenanhung\MyDebug\Benchmark;
 use nguyenanhung\MyDebug\Logger;
 use nguyenanhung\MyCache\Cache;
 use nguyenanhung\MyRequests\MyRequests;
-use nguyenanhung\Lottery\Backend\Helper\Helper;
+use nguyenanhung\Backend\Your_Project\Helper\Helper;
 
 /**
  * Class BaseCore
@@ -17,13 +17,13 @@ use nguyenanhung\Lottery\Backend\Helper\Helper;
  */
 class BaseCore
 {
-    const VERSION      = '1.0.0';
+    const VERSION      = '1.0.1';
     const KEY_DATABASE = 'DATABASE';
     const KEY_OPTIONS  = 'OPTIONS';
     const KEY_AUTH     = 'AUTH';
     const KEY_CONFIG   = 'CONFIG';
 
-    /** @var \nguyenanhung\Lottery\Backend\Helper\Helper */
+    /** @var \nguyenanhung\Backend\Your_Project\Helper\Helper */
     protected $helper;
     /** @var \nguyenanhung\MyDebug\Benchmark */
     protected $benchmark;
