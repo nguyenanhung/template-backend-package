@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.1] - 2022/07/02
+
+### Fixed
+
+- [x] Fixed Helper
+
 ## [1.0.0] - 2022/07/02
 
 ### Added
