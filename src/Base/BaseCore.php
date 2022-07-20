@@ -17,7 +17,7 @@ use nguyenanhung\Backend\Your_Project\Helper\Helper;
  */
 class BaseCore
 {
-    const VERSION      = '1.0.2';
+    const VERSION      = '1.0.3';
     const KEY_DATABASE = 'DATABASE';
     const KEY_OPTIONS  = 'OPTIONS';
     const KEY_AUTH     = 'AUTH';
