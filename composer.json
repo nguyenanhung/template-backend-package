@@ -31,9 +31,14 @@
         "nguyenanhung/monitor": "^3.0",
         "nguyenanhung/helpers": "^3.0",
         "nguyenanhung/security": "^3.0",
+        "nguyenanhung/validation": "^1.0",
         "lcobucci/jwt": "^4.1 || ^4.0 || ^3.4.6"
     },
     "require-dev": {
+        "nguyenanhung/seo": "^3.0",
+        "nguyenanhung/image": "^3.0",
+        "nguyenanhung/upload": "^2.0",
+        "nguyenanhung/mailer-sdk": "^3.0",
         "tramtro/make-some-noise": "^1.0"
     },
     "autoload": {
