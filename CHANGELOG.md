@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.4] - 2022/08/07
+
+### Fixed
+
+- [x] Upgrade vendor package
+
 ## [1.0.3] - 2022/07/20
 
 ### Fixed

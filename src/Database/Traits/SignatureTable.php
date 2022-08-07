@@ -36,7 +36,8 @@ trait SignatureTable
             if (!empty($role)) {
                 $wheres['status'] = ['field' => 'role', 'operator' => $DB::OPERATOR_EQUAL_TO, 'value' => $role];
             }
-            $result = $DB->setTable($table)->getInfo($wheres, 'id', null, ['nickname', 'signature', 'role']);
+            $select = ['nickname', 'signature', 'role'];
+            $result = $DB->setTable($table)->getInfo($wheres, 'id', null, $select);
             $this->cache->save($cacheKey, $result);
             $DB->disconnect();
             unset($DB);
