@@ -16,11 +16,11 @@ Finally, your edit file `composer.json` in root folder of project
 {
     "type": "library",
     "name": "nguyenanhung/template-backend-package",
-    "description": "Template for repository Backend API  - Basic, Simple and Lightweight",
+    "description": "Structure Repository Template for Backend API Service Package",
     "keywords": [
-        "template",
         "backend",
-        "api",
+        "helper",
+        "library",
         "php"
     ],
     "homepage": "https://github.com/nguyenanhung/template-backend-package",
@@ -35,7 +35,26 @@ Finally, your edit file `composer.json` in root folder of project
         }
     ],
     "require": {
-        "php": ">=7.1.3"
+        "php": ">=7.1.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "nguyenanhung/my-debug": "^3.0 || ^2.0",
+        "nguyenanhung/my-cache": "^3.0 || ^2.0",
+        "nguyenanhung/requests": "^3.0 || ^2.0",
+        "nguyenanhung/database": "^3.0 || ^2.0",
+        "nguyenanhung/monitor": "^3.0 || ^2.0",
+        "nguyenanhung/helpers": "^3.0 || ^2.0",
+        "nguyenanhung/security": "^3.0 || ^2.0",
+        "nguyenanhung/validation": "^1.0",
+        "lcobucci/jwt": "^4.1 || ^4.0 || ^3.4.6"
+    },
+    "require-dev": {
+        "nguyenanhung/seo": "^3.0 || ^2.0",
+        "nguyenanhung/image": "^3.0 || ^2.0",
+        "nguyenanhung/upload": "^2.0",
+        "nguyenanhung/mailer-sdk": "^3.0",
+        "tramtro/make-some-noise": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -46,7 +65,6 @@ Finally, your edit file `composer.json` in root folder of project
         ]
     }
 }
-
 ```
 
 Replace name space `REPLACE_FOR_YOUR` to Project Backend space, example: `Google`. After change namespace, project namespace same `"nguyenanhung\\Backend\\Google\\": "src/"`
