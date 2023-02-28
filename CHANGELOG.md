@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.5] - 2023/02/28
+
+### Fixed
+
+- [x] Upgrade vendor package, use `nguyenanhung/framework`
+
 ## [1.0.4] - 2022/08/07
 
 ### Fixed

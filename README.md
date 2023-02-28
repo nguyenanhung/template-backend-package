@@ -35,18 +35,11 @@ Finally, your edit file `composer.json` in root folder of project
         }
     ],
     "require": {
-        "php": ">=7.1.3",
+        "php": "^5.6 || ^7.0 || ^8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "nguyenanhung/my-debug": "^3.0 || ^2.0",
-        "nguyenanhung/my-cache": "^3.0 || ^2.0",
-        "nguyenanhung/requests": "^3.0 || ^2.0",
-        "nguyenanhung/database": "^3.0 || ^2.0",
-        "nguyenanhung/monitor": "^3.0 || ^2.0",
-        "nguyenanhung/helpers": "^3.0 || ^2.0",
-        "nguyenanhung/security": "^3.0 || ^2.0",
-        "nguyenanhung/validation": "^1.0",
+        "nguyenanhung/framework": "^1.0",
         "lcobucci/jwt": "^4.1 || ^4.0 || ^3.4.6"
     },
     "require-dev": {
